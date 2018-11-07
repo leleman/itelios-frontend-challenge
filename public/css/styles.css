@@ -1,0 +1,200 @@
+body {
+  font-family: 'Roboto Regular', sans-serif;
+}
+body img {
+  width: 85%;
+}
+body h3 {
+  color: #4f5b6f;
+}
+body button:hover .card-icon {
+  animation: buttonSlide 0.03s ease-in-out 0s forwards;
+}
+body .image {
+  text-align: center;
+}
+body .product_name {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body .container {
+  display: block;
+  width: 87%;
+  margin: auto;
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  body .container {
+    display: inherit;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1415px) {
+  body .container {
+    width: 87%;
+    margin: auto;
+  }
+}
+@media (min-width: 1416px) and (max-width: 1440px) {
+  body .container {
+    width: 81%;
+    margin: auto;
+  }
+}
+body .container .row {
+  float: left;
+  display: inline-table;
+  position: relative;
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  body .container .row {
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+}
+body .container .row .bold_price {
+  color: #4f5b6f;
+}
+body .container .row .advertisement {
+  display: inline-block;
+  width: 242px;
+  padding: 20px;
+  border: 1px solid #848484;
+  vertical-align: top;
+  position: relative;
+  z-index: 3;
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  body .container .row .advertisement {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #848484;
+    vertical-align: top;
+    position: relative;
+    z-index: 3;
+  }
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  body .container .row .advertisement .product-info {
+    padding: 20px;
+  }
+}
+body .container .row .advertisement .product-info .image {
+  text-align: center;
+}
+body .container .row .advertisement .product-info .product_name {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body .container .row .advertisement .product-info .product_price {
+  color: #848484;
+}
+body .container .row .advertisement .product-info .bold {
+  font-family: 'Roboto', sans-serif;
+}
+body .container .row .advertisement .product-info .line-hight {
+  height: 30px;
+}
+body .container .row .advertisement .product-info .btn-card {
+  background: #fff;
+  border: 1px solid;
+  width: 100%;
+  line-height: 53px;
+  font-size: 18px;
+  border: 1px solid #848484;
+  font-weight: 600;
+  display: none;
+}
+body .container .row .advertisement .product-info .btn-card:hover {
+  animation: buttonBorder 0.03s ease-in-out 0s forwards;
+}
+body .container .row .advertisement .product-info .card-icon {
+  position: relative;
+  top: 7px;
+  margin-left: 4px;
+}
+body .container .row .advertisement:hover {
+  background: #e5e5e5;
+  background: -moz-linear-gradient(top, #e5e5e5 1%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #e5e5e5 1%, #ffffff 100%);
+  background: linear-gradient(to bottom, #e5e5e5 1%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ffffff', GradientType=0);
+}
+body .container .row .advertisement:hover .btn-card {
+  display: inherit;
+}
+body .container .row .front {
+  height: 464px;
+  width: 852px;
+  overflow: hidden;
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  body .container .row .front {
+    height: 464px;
+    width: 100%;
+    overflow: visible;
+  }
+}
+body .container .row .front #interest {
+  height: 463px;
+  width: 400%;
+  left: 0px;
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  body .container .row .front #interest {
+    height: 463px;
+    width: 100%;
+    left: 0px;
+  }
+}
+body .container .row .top-otn {
+  text-align: center;
+  width: 860px;
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  body .container .row .top-otn {
+    display: none;
+  }
+}
+body .container .row .top-otn .otn {
+  position: relative;
+  z-index: 2;
+  bottom: 35px;
+}
+body .container .row .top-otn .otn .botton-circle {
+  font-size: 10px;
+  margin: 3px;
+}
+body .container .row .top-otn .otn .svg-inline--fa.fa-w-16 {
+  width: 1.2em;
+}
+body .container .row .top-otn .otn .svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 0.9em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+body .container .row .top-otn .otn svg {
+  color: #a5a4a4;
+}
+body .container .row .top-otn .otn .black-dot {
+  color: #3d4858;
+}
+@keyframes buttonSlide {
+  from {
+    color: #4f5b6f;
+  }
+  to {
+    color: #f16f05;
+  }
+}
+@keyframes buttonBorder {
+  from {
+    border-left: 1px solid #848484;
+  }
+  to {
+    border-left: 8px solid #f16f05;
+  }
+}
